@@ -5,8 +5,7 @@ cask "netcatty" do
   sha256 arm:   "a6b7b6cfd9eee8dca7bd96e129b5a6b473742b8dfd9ee238a04632cc20279b29",
          intel: "2999a8ec2aface6f7d29cb48fdf05e485b1bfc710d31d472c1d4ff5ee28c5920"
 
-  url "https://github.com/binaricat/Netcatty/releases/download/v#{version}/Netcatty-#{version}-mac-#{arch}.dmg",
-      verified: "github.com/binaricat/Netcatty/"
+  url "https://github.com/binaricat/Netcatty/releases/download/v#{version}/Netcatty-#{version}-mac-#{arch}.dmg"
   name "Netcatty"
   desc "Modern SSH manager and terminal app"
   homepage "https://github.com/binaricat/Netcatty"
@@ -17,7 +16,7 @@ cask "netcatty" do
   end
 
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: ">= :monterey"
 
   app "Netcatty.app"
 
