@@ -1,9 +1,9 @@
 cask "netcatty" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.1.63"
-  sha256 arm:   "7c8ece9df295fce68dc9d91b5d650a5696ab8bb032d53b2d417e926f3a7bac55",
-         intel: "181848bbe3ef104fbe02a02af13954b0499db04c300ac75d8bc5be6a85da08e7"
+  version "1.1.64"
+  sha256 arm:   "e055c6dd3ca3e3030cc25cec21fea14977ebc83ae3cbb0fa43923879806f9f2c",
+         intel: "dfe2d7884b1f52ff4fa9154bfe5368bcb2078c4bb498e921c4d991d696d101ca"
 
   url "https://github.com/binaricat/Netcatty/releases/download/v#{version}/Netcatty-#{version}-mac-#{arch}.dmg"
   name "Netcatty"
